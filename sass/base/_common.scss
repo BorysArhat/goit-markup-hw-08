@@ -23,7 +23,13 @@ body {
     font-family: "Roboto", sans-serif;
 }
 .section {
-    padding: 94px 0;
+    @include mq (notDesktop) {
+        padding: 60px 0;
+    }
+    @include mq (desktop) {
+        padding: 94px 0;   
+    }
+    
 }
 
 img {
