@@ -7,7 +7,7 @@
 }
 
 .customers__list {
-    width: 210px;
+    max-width: 210px;
     height: 92px;
     align-items: center;
     justify-content: center;
@@ -17,7 +17,7 @@
     border: 1px solid #afb1b8;
     border-radius: 4px;
     display: flex;
-    width: 210px;
+    max-width: 210px;
     height: 92px;
     justify-content: center;
     align-items: center;

@@ -43,6 +43,10 @@
     display: flex;
     justify-content: center;
     margin-right: -10px;
+
+    @media screen and (max-width: 767px) {
+        margin-bottom: 60px;
+    }
 }
 
 .footer-social-links>li {

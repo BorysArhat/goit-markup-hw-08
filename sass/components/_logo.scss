@@ -6,7 +6,7 @@
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
     color: #2196f3;
-    margin-right: 93px;
+    // margin-right: 93px;
 }
 
 .logo--white {
@@ -15,4 +15,16 @@
 
 .logo--black {
     color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+    .logo--black {
+        margin-right: 93px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .logo--white {
+        margin-right: 93px;
+    } 
 }
