@@ -2,11 +2,10 @@
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 24px;
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
     color: #2196f3;
-    // margin-right: 93px;
 }
 
 .logo--white {
@@ -25,6 +24,7 @@
 
 @media screen and (min-width: 1200px) {
     .logo--white {
+        font-size: 26px;
         margin-right: 93px;
     } 
 }

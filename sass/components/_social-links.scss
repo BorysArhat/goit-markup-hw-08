@@ -1,10 +1,10 @@
 .social-links {
     display: flex;
     justify-content: center;
-    margin-right: -10px;
+    // margin-right: -10px;
 }
 
-.social-links>li {
+.social-links-item {
     margin-right: 10px;
 
     &:last-of-type {
@@ -42,17 +42,12 @@
 .footer-social-links {
     display: flex;
     justify-content: center;
-    margin-right: -10px;
-
-    @media screen and (max-width: 767px) {
-        margin-bottom: 60px;
-    }
 }
 
-.footer-social-links>li {
+.footer-social-links-item {
     margin-right: 10px;
 
-    &:last-child {
+    &:last-of-type {
         margin-right: 0;
     }
 }

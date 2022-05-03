@@ -122,10 +122,10 @@
 }
 
 .user-agreement-label {
-    display: flex;
+    display: block;
     align-items: center;
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     cursor: pointer;
 
@@ -172,7 +172,6 @@
     background-color: var(--accent-color);
 }
 
-
 .user-agreement-link,
 .user-agreement-link:visited {
     text-decoration-line: underline;
@@ -210,8 +209,8 @@
 }
 
 .modal {
-    height: 580px;
-    width: 530px;
+    max-width: 530px;
+    width: 100%;
     position: absolute;
     background-color: var(--white-color);
     border-radius: 4px;
@@ -224,8 +223,7 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
 
     @include mq(notDesktop){
-        height: 609px;
-        width: 450px;
+        max-width: 450px;
     }
     
 }

@@ -33,6 +33,7 @@
 .join-header {
     color: var(--white-color);
     font-weight: bold;
+    font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -42,17 +43,16 @@
 // mobile
 @media screen and (max-width: 767px) {
     .footer {
- 
         text-align: center;
     }
 
-    .address {
+    .contact-us {
         margin-bottom: 60px;
     }
 }
 
 .footer-form-div {
-    display: block;
+    margin-left: auto;
 }
 
 .footer-input {
@@ -79,8 +79,6 @@
 }
 
 .footer-subscribe-button {
-    position: relative;
-    width: 200px;
     height: 50px;
     margin-top: 20px;
     background-color: var(--accent-color);
@@ -88,20 +86,17 @@
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 188%;
-    text-align: left;
+    line-height: 1.88;
     letter-spacing: 0.06em;
     color: var(--white-color);
-    padding-left: 29px;
-    
+    padding: 10px 28px;
+    display: inline-flex;
+    align-items: center;
 
 }
 
 .send-btn-icon {
-    position: absolute;
-    top: 50%;
-    right: 28px;
-    transform: translateY(-50%);
+    margin-left: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -109,7 +104,6 @@
         display: flex;
         align-items: baseline;
         justify-content: space-around;
-        margin-bottom: 60px;
     }
 }
 
@@ -123,6 +117,12 @@
         width: 450px;
         margin: 0 auto;
     }
+}
+
+@media screen and (max-width: 1199px) {
+    .tablet-wrapper {
+        margin-bottom: 60px;
+    }    
 }
 
 // desctop
@@ -153,9 +153,9 @@
         margin-right: 70px;
     }
 
-    .join-us {
-        margin-right: 93px;
-    }
+    // .join-us {
+        // margin-right: 93px;
+    // }
 
     .footer-form {
         display: flex;
